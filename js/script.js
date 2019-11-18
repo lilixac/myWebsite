@@ -13,6 +13,12 @@ $(window).on("load", function () {
   });
 })
 
+$(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+
 $(document).ready(function() {
   $('#slides').superslides({
     animation: 'fade' ,
