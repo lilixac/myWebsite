@@ -1,0 +1,402 @@
+body{
+  background-color: #010203 ;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.loader{
+  width: 100%;
+  height: 100%;
+  background-color: #010203;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: none;
+  padding: none;
+  z-index: 100;
+}
+
+.loader .inner{
+  width: 100%;
+  height: 100%;
+  left: 47%;
+  top: 40%;
+  background: url(../img/icons/867.gif);
+  position: relative; 
+  background-repeat: no-repeat;
+
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title-message{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  z-index: 5;
+  top: 50%;
+  margin-top: -125px;
+  text-align: left;
+  padding-left: 5%;
+  font-family: 'Economica', sans-serif;
+}
+
+.title-message .heading p {
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4) ;
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+.title-message .heading .main{
+  font-size: 50px;
+}
+
+.title-message .heading .sub-main{
+  font-size: 30px;
+}
+
+.title-message .heading .tail{
+  font-size: 25px;
+}
+
+.connect .social {
+  position: absolute;
+  top: 10vh;
+  right: 25px;
+  z-index: 5;
+  display: inline-table ;
+}
+
+.connect .social .bit {
+  margin: 6px;
+  padding: 0 6px;
+}
+
+.connect .social .bit a{
+  /* color: #d4af37; */
+  color: #fff;
+}
+
+.sit a{
+  color: #fff;
+}
+
+
+#navigation{
+  background-color: #000;
+  padding: 20px 0;
+  z-index: 50;  
+  width: 100%;
+}
+
+#navigation li{
+  padding: 0 10px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#navigation a {
+  color: #d4af37;
+  font-size: large;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/icons/menu.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
+.scroll-button{
+  width: 50px;
+  position: fixed;
+  height: 50px;
+  right: 15px;
+  bottom: 15px;
+  background-color: #282c34;
+  border-radius: 50%;
+  display: inline;
+}
+
+.scroll-button i{
+  position: relative;
+  margin-left: 32%;
+  margin-top: 32%;
+  color: white;
+}
+
+.scroll-button:hover{
+  background-color: #d4af37;
+}
+
+.section{
+  padding: 100px 0px;
+}
+
+.about-image{
+  max-width: 100% ;
+}
+
+.jb-back{
+  background-color: #282c34;
+}
+
+.skill,
+.contact-section{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.chart{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chart canvas{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.chart .percent{
+  color: #fff;
+  line-height: 150px;
+  font-size: 30px;
+}
+
+.chart .percent:after{
+  content: '%';
+}
+
+.git{
+  border: 3px solid #d4af37;
+  padding: 15px 20px;
+  color: #fff;
+}
+
+.git:hover {
+  text-decoration: none;
+  background-color: #d4af37;
+  color: #010203;
+  font-weight: bold;
+}
+
+.filter a{
+  color: silver;
+  border: 1px solid #d4af37;
+  padding: 10px 15px;
+  display: block;
+}
+
+.filter li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current{
+  background-color: #d4af37;
+  color: #000;
+}
+
+.filter{
+  width: 100%;
+  text-align: center;
+}
+
+.square-item{
+  margin-top: 30px;
+  position: relative;
+}
+
+.square-inner-container{
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 4px solid #d4af37;
+  border-top: none;
+}
+
+.square-inner-container:before,
+.square-inner-container:after {
+  content: '';
+  position: absolute;
+  top:0px;
+  width: 30%;
+  border-bottom: 4px solid #d4af37;
+}
+
+.square-inner-container:before{
+  right: 0px;
+}
+
+.square-inner-container:after {
+  left: 0px;
+}
+
+.square-content h2{
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.square-content h3{
+  font-weight: 600;
+  margin: none;
+  font-size: 14px;
+}
+
+.square-icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #d4af37;
+}
+
+.pfheading{
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.item-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+ .items .item .icons {
+  position: absolute;
+  width: 90 px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -25px auto 0 -24%;
+  text-align: center;
+  z-index: 3;
+ }
+
+ .items .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 8px;      
+}
+
+.items a {
+  height: 40px;
+  width: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -webkit-transition: all 0.2s linear, 1s;
+}
+
+.items .image-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -webkit-transition: all 0.2s linear, 1s; 
+
+}
+
+.items .item:hover .image-overlay{
+  opacity: 1;
+}
+
+.items .pf-search-box {
+  visibility: hidden;
+  transition: 0s;
+  opacity: 0;
+}
+
+.items .pf-project-box {
+  visibility: hidden;
+  transition: 0s;
+  opacity:0;
+}
+
+.item:hover .pf-search-box{
+  visibility: inherit;
+  transition: 1s;
+  opacity: 1;
+}
+
+.item:hover .pf-project-box{
+  visibility: inherit;
+  transition: 1s;
+  opacity: 1;
+}
+
+.item  {
+  margin-right: none;
+}
+
+.item img{
+  width: 100%;
+  border: 2px solid #d4af37;
+  border-radius: 10%;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.copyright-section{
+  text-align: center;
+  background-color: #282c34;
+}
+
+.copyright-section .connects .socials .sit {
+  display: inline;
+  padding: 10px;
+}
+
+.line-1{
+  /* font-family: 'Liu Jian Mao Cao', cursive; */
+  font-size: 40px;
+}
+
+.info-line{
+  font-family: 'Armata', sans-serif;
+  list-style-type: none;
+}
